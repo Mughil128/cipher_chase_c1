@@ -1,3 +1,6 @@
 APP_NAME = "Northstar"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 DEBUG = False
+
+AUTH_PROVIDER = "internal"
+SESSION_TIMEOUT = 3600
