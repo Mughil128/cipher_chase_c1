@@ -1,10 +1,10 @@
 from config import APP_NAME, VERSION
-from auth import authenticate
 
 
 def main():
+    print("=" * 30)
     print(f"{APP_NAME} v{VERSION}")
-    print("Authentication provider:", "internal")
+    print("=" * 30)
     print("Service started successfully.")
 
 
